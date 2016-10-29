@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
 set -e
 
-sudo apt install -y python-pip
-pip install --user git+git://github.com/peercoinops/peercoin_rpc.git
+sudo apt install -y python3-pip
+pip3 install --user git+git://github.com/peerchemist/peercoin_rpc.git
 
 PEER_ASSETS_DIR=~/peerassets
 mkdir -p $PEER_ASSETS_DIR
