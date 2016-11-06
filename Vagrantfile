@@ -8,5 +8,5 @@ Vagrant.configure(2) do |config|
   config.vm.provision "shell", path: "peerassets.sh", privileged: false
   config.vm.provision "file", source: "ppcoin.conf", destination: "~/.ppcoin/ppcoin.conf"
   config.vm.provision "file", source: "src/testsend.py", destination: "~/peerassets/op_return/op_return/testsend.py"
-  config.vm.network :forwarded_port, guest: 80, host: 4567
+#  config.vm.network :forwarded_port, guest: 80, host: 4567
 end
