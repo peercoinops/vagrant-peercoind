@@ -1,0 +1,4 @@
+git+git://github.com/peerchemist/peercoin_rpc.git
+secp256k1
+base58
+docker-compose

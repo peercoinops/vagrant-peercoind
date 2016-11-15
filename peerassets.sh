@@ -3,9 +3,7 @@ set -e
 
 sudo apt install -y python3-pip
 pip3 install --upgrade pip
-pip3 install --user git+git://github.com/peerchemist/peercoin_rpc.git
-pip3 install --user secp256k1 base58 #pypeerassets
-pip3 install --user docker-compose
+pip3 install --user -r /tmp/requirements.txt
 
 PEER_ASSETS_DIR=~/peerassets
 mkdir -p $PEER_ASSETS_DIR
